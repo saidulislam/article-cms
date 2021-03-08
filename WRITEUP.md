@@ -38,9 +38,9 @@ Workflow to setup and deploy a web app is simple and quicker with App Service co
 *Detail how the app and any other needs would have to change for you to change your decision in the last section.* 
 <br>
 <br>
-*If the application becomes large and complex, and I need more flexibilities in terms of configurations - security, network rules, more memory and cpus.
-*Increase in the number of users and usage.
-*Bigger budget with more resources to manage VMs, Databases, and complex network rules.
+- If the application becomes large and complex, and I need more flexibilities in terms of configurations - security, network rules, more memory and cpus.
+- Increase in the number of users and usage.
+- Bigger budget with more resources to manage VMs, Databases, and complex network rules.
 
 
 
