@@ -8,17 +8,22 @@
 - *Justify your choice*
 <br>
 <br>
-Article CMS is a small and simple application. App Service is sufficient for this type of application. 
+Article CMS is a small and simple web application. Azure App Service is an HTTP-based service for hosting web applications and it is sufficient for this type of application. 
 <br>
 <br>
 Costs
 <br>
 I can start small and grow as needed. Starting cost for App Service can be very little. VMs are more expensive and they can be more involved, complex and time consuming for the developers than other compute options. In App Service, I have limited access to the host server and there are some hardware limitations like 14GB RAM and 4 vCPU cores per instance but these are fine for such a small and simple application.
-
-High availability, auto-scaling and support of both Linux and Windows environments.
-Continuous deployment model using GitHub, Azure DevOps, or any Git repo.
-Vertical or Horizontal scaling. Vertical scaling increases or decreases resources allocated to our App Service, such as the amount of vCPUs or RAM, by changing the App Service pricing tier. Horizontal scaling increases or decreases the number of Virtual Machine instances our App Service is running.
-
+<br>
+<br>
+Scalability
+<br>
+App Service provides auto-scaling (Vertical or Horizontal scaling) and continuous deployment model using GitHub, Azure DevOps, or any Git repo. It is possible to have multiple VMs be grouped to provide high availability, scalability, and redundancy but all these will require a lot more hands approach compared to the App Service option. 
+<br>
+<br>
+Availability
+<br>
+Again, it is possible to have multiple VMs be grouped to provide high availability, scalability, and redundancy but all these will require a lot more hands approach compared to the App Service option. With App Service option, developers will be hands off and they won't have to worry about it. App Serice provides high availability.
 <br>
 <br>
 ### Assess app changes that would change your decision.
