@@ -26,6 +26,11 @@ Availability
 Again, it is possible to have multiple VMs be grouped to provide high availability, scalability, and redundancy but all these will require a lot more hands approach compared to the App Service option. With App Service option, developers will be hands off and they won't have to worry about it. App Serice provides high availability.
 <br>
 <br>
+Workflow
+<br>
+Workflow to setup and deploy a web app is simple and quicker with App Service compared to the VM approach. With the VM approach, developer will have to provision VM, setup firewall/network rules, transfer the app files, install all the dependencies and run the app. With the App Service approach, developer will instantiate the service, either depploy the app from local box via Azure CLI or put the latest code in Github or similar and itegrate with the App Service for continuous deployment.
+<br>
+<br>
 ### Assess app changes that would change your decision.
 
 *Detail how the app and any other needs would have to change for you to change your decision in the last section.* 
