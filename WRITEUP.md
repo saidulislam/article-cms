@@ -31,6 +31,16 @@ Workflow
 Workflow to setup and deploy a web app is simple and quicker with App Service compared to the VM approach. With the VM approach, developer will have to provision VM, setup firewall/network rules, transfer the app files, install all the dependencies and run the app. With the App Service approach, developer will instantiate the service, either depploy the app from local box via Azure CLI or put the latest code in Github or similar and itegrate with the App Service for continuous deployment. All the steps are done through the web interface.
 <br>
 <br>
+<br>
+<br>
 ### Assess app changes that would change your decision.
 
 *Detail how the app and any other needs would have to change for you to change your decision in the last section.* 
+<br>
+<br>
+*If the application becomes large and complex, and I need more flexibilities in terms of configurations - security, network rules, more memory and cpus.
+*Increase in the number of users and usage.
+*Bigger budget with more resources to manage VMs, Databases, and complex network rules.
+
+
+
