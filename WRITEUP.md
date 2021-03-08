@@ -9,7 +9,8 @@
 <br>
 <br>
 Article CMS is a small and simple application. App Service is sufficient for this type of application. 
-**Costs**
+<br>
+Costs
 I can start small and grow as needed. Starting cost for App Service can be very little. VMs are more expensive and they can be more involved, complex and time consuming for the developers than other compute options. In App Service, I have limited access to the host server and there are some hardware limitations like 14GB RAM and 4 vCPU cores per instance but these are fine for such a small and simple application.
 
 High availability, auto-scaling and support of both Linux and Windows environments.
